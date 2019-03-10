@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <b-jumbotron>
-      <template slot="header">Techonologie</template>
+      <template slot="header">Technologie</template>
 
       <template slot="lead">
         Tworząc aplikacje i strony specjalnie dla ciebie kierujemy się tym, aby produkt, <br>
