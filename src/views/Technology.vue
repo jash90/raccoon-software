@@ -30,7 +30,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 @Component
 export default class Technology extends Vue {}
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .title {
   font-weight: bold;
   padding: 30px 0px;
