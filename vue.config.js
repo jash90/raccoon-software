@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "raccoon-software"
+  publicPath: "/raccoon-software/"
 };
