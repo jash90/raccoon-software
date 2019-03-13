@@ -125,5 +125,8 @@ h1 {
 h3 {
   padding: 5px;
 }
+.vue-tags-input{
+  max-width: 100%;
+}
 //style vue tags
 </style>
