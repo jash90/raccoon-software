@@ -1,3 +1,4 @@
 module.exports = {
-  publicPath: "/raccoon-software/"
+  publicPath: "/",
+  transpileDependencies: [/\bvue-awesome\b/]
 };

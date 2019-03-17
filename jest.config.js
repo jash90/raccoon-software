@@ -18,5 +18,6 @@ module.exports = {
     "ts-jest": {
       babelConfig: true
     }
-  }
+  },
+  transformIgnorePatterns: ["/node_modules(?![\\\\/]vue-awesome[\\\\/])/"]
 };

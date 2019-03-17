@@ -34,11 +34,12 @@ export default class About extends Vue {}
   padding: 30px 0px;
 }
 .content {
+  text-align: justify;
   padding: 0px 20px;
 }
 img {
   width: 200px;
   height: 200px;
-  padding: 0px 10px;
+  padding: 0px 100px;
 }
 </style>
