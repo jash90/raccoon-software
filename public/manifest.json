@@ -1,6 +1,6 @@
 {
-  "name": "Raccoon Software",
-  "short_name": "Raccoon Software",
+  "name": "raccoon-software",
+  "short_name": "raccoon-software",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
