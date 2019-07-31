@@ -8,7 +8,7 @@
         <b-navbar-nav>
           <b-nav-item href="/about">Firma</b-nav-item>
           <b-nav-item href="/technology">Technologie</b-nav-item>
-          <b-nav-item href="/princing">Wycena</b-nav-item>
+          <b-nav-item href="/pricing">Wycena</b-nav-item>
           <b-nav-item href="/contact">Kontakt</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
