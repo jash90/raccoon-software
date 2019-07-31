@@ -9,7 +9,7 @@
 
         <div class="content">
           <p>
-            Nazywam się Bartłomiej Zimny i od marca 2019 r. prowadzę działalność gospodarczą.
+            Nazywam się B Zimny i od marca 2019 r. prowadzę działalność gospodarczą.
             <br />Firma jest dla mnie następnym, etapy pracy jako programista.
             <br />Programuje od około 5 lat, od 1,5 roku robię to komercyjnie.
             <br />który tworzymy był nie tylko funkcjonalny, ale też przejrzysty i intuicyjny dla użytkownika.
