@@ -38,21 +38,17 @@ export default class Technology extends Vue {}
 <style style="scss" scoped>
 .title {
   font-weight: bold;
-  padding: 30px 0px;
 }
 .content {
   text-align: justify;
-  padding: 0px 20px;
 }
 img {
   max-width: 160px;
   max-height: 160px;
   width: 20%;
   height: auto;
-  padding: 0px 10px;
 }
 .technology {
   background-color: #f5f5f5;
-  padding: 20px;
 }
 </style>

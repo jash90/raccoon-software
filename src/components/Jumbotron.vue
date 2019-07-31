@@ -2,10 +2,10 @@
   <div class="jumbotron">
     <b-row class="jcontainer">
       <div class="jimg">
-        <b-img :src="require('../assets/logo-transparent.svg')" width="460" height="460"/>
+        <b-img :src="require('../assets/logo-transparent.svg')"/>
       </div>
       <div class="jtext">
-        <h1>RACCOON SOFTWARE</h1>
+        <h2>RACCOON SOFTWARE</h2>
         <h4>Rozwiązujemy wasze problemy</h4>
         <b-button variant="light">KONTAKT</b-button>
       </div>
@@ -23,11 +23,12 @@ export default class Jumbotron extends Vue {}
 <style lang="scss" scoped>
 .jumbotron {
   display: flex;
-  flex: 1;
+  justify-content: center;
   width: 100%;
   border-radius: 0px;
   margin: 0px;
   background: #00adee;
+  padding: 20px;
   .jtext {
     display: flex;
     flex-direction: column;
@@ -38,7 +39,7 @@ export default class Jumbotron extends Vue {}
   }
   .jcontainer {
     display: flex;
-    flex: 1;
+    width: 100%;
     justify-content: center;
   }
   .jimg {
@@ -53,8 +54,19 @@ export default class Jumbotron extends Vue {}
 }
 .btn {
   border-radius: 0px;
-  padding: 6px 50px;
   color: #00adee;
-  margin-top: 30px;
+  margin-top: 10px;
+}
+img{
+    width: 460px;
+    height: 460px;
+}
+@media (max-width: 800px) {
+  img {
+  max-width: 100%;
+  }
+  h1{
+    font-size: 32px;
+  }
 }
 </style>

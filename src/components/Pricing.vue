@@ -7,7 +7,7 @@
       <div class="img-container">
         <b-img :src="require('../assets/pricing.png')"/>
       </div>
-      <b-col>
+      <b-col style="width:100%">
         <b-form class="form">
           <b-form-group>
             <b-form-radio-group
@@ -61,7 +61,6 @@ export default class Pricing extends Vue {
 }
 .content {
   text-align: justify;
-  padding: 0px 20px;
 }
 .pricing {
   display: flex;
@@ -69,7 +68,6 @@ export default class Pricing extends Vue {
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  padding: 20px;
 }
 .button-container {
   display: flex;
@@ -80,7 +78,7 @@ export default class Pricing extends Vue {
 }
 .img-container {
   display: flex;
-  margin: 0px 50px;
+  /* margin: 0px 50px; */
   flex-direction: row;
   justify-content: flex-end;
 }
@@ -90,10 +88,16 @@ export default class Pricing extends Vue {
   align-items: flex-start;
   width: 500px;
 }
+@media
+  (max-width: 800px) {
+  .form {
+   width: 100%;
+  }
+}
 h5 {
-  margin: 10px 0px 10px 2px;
+  /* margin: 10px 0px 10px 2px; */
 }
 input {
-  margin: 5px 0px;
+  /* margin: 5px 0px; */
 }
 </style>
