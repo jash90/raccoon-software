@@ -1,36 +1,36 @@
 <template>
 	<div class="pricing">
-      <div class="container">
-		<div class="title">
-			<h1>Wycena</h1>
-		</div>
-		<b-row style="display:flex;flex:1;justify-content:center;">
-			<div class="img-container">
-				<b-img :src="require('../assets/pricing.png')"/>
+		<div class="content">
+			<div class="title">
+				<h1>Wycena</h1>
 			</div>
-			<b-col style="width:100%">
-				<b-form class="form">
-					<b-form-group>
-						<b-form-radio-group
-							id="checkbox-group-1"
-							v-model="selectedProduct"
-							:options="typeProduct"
-							name="flavour-1"
-							class="radio"
-						></b-form-radio-group>
-					</b-form-group>
-					<b-input placeholder="Funkcjonalności"/>
-					<b-input placeholder="Opis"/>
-					<h5 style="margin-top: 8px;">Kontakt</h5>
-					<b-input placeholder="Imię i nazwisko"/>
-					<b-input placeholder="Email"/>
-					<div class="button-container">
-						<b-button>Wyślij</b-button>
-					</div>
-				</b-form>
-			</b-col>
-		</b-row>
-	</div>
+			<div style="display:flex;flex-direction:row;flex:1;justify-content:center;">
+				<div class="img-container">
+					<b-img :src="require('../assets/pricing.png')"/>
+				</div>
+				<div style="display:flex;flex-direction:column;width: 100%;">
+					<b-form class="form">
+						<b-form-group>
+							<b-form-radio-group
+								id="checkbox-group-1"
+								v-model="selectedProduct"
+								:options="typeProduct"
+								name="flavour-1"
+								class="radio"
+							></b-form-radio-group>
+						</b-form-group>
+						<b-input placeholder="Funkcjonalności"/>
+						<b-input placeholder="Opis"/>
+						<h5 style="margin-top: 8px;">Kontakt</h5>
+						<b-input placeholder="Imię i nazwisko"/>
+						<b-input placeholder="Email"/>
+						<div class="button-container">
+							<b-button>Wyślij</b-button>
+						</div>
+					</b-form>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -70,20 +70,20 @@
 		align-items: center;
 		background-color: #fff;
 		padding: 20px;
+		justify-items: center;
 	}
 
-    .container{
-      display: flex;
-      flex-direction: column;
-      width: 1100px;
-    }
+	.content {
+		width: 100%;
+		max-width: 900px;
+	}
 
 	.button-container {
 		display: flex;
-		width: 100%;
-		padding: 20px 0px;
 		flex-direction: row;
 		justify-content: flex-end;
+		width: 100%;
+		padding: 20px 0px;
 	}
 
 	.img-container {
@@ -96,6 +96,8 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		width: 100%;
+		max-width: 900px;
 	}
 
 	.radio {
@@ -106,16 +108,21 @@
 
 	@media (max-width: 675px) {
 		.radio {
-          display: flex;
-          flex-direction: column;
-          text-align: left;
+			display: flex;
+			flex-direction: column;
+			text-align: left;
+		}
+		img{
+			display: none;
 		}
 	}
-    img{
-      height: 300px;
-      margin: 10px;
-    }
-  input{
-    width: 100%;
-  }
+
+	img {
+		align-self: flex-start;
+		height: 300px;
+		margin: 10px;
+	}
+	.input{
+		width: 100%;
+	}
 </style>

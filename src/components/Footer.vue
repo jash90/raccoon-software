@@ -47,6 +47,7 @@
 		display: flex;
 		flex-direction: column;
 		background-color: #f5f5f5;
+		margin: 10px;
 
 
 		img {
@@ -90,6 +91,7 @@
 			display: flex;
 			flex-direction: row;
 			padding: 20px 40px;
+			flex-wrap: wrap;
 		}
 
 		.title {
@@ -102,17 +104,17 @@
 			width: 170px;
 		}
 
-      @media (max-width: 800px) {
-        .footer-container {
-          display: flex;
-          flex-direction: column;
-          padding: 20px 40px;
-        }
-        .center {
-          display: flex;
-          flex-direction: column;
-          width: 90%;
-        }
-      }
+		@media (max-width: 800px) {
+			.center {
+				display: flex;
+				flex-direction: column;
+				width: 90%;
+			}
+		}
+		@media (max-width: 700px) {
+			.img-container {
+				display: none;
+			}
+		}
 	}
 </style>

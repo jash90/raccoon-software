@@ -1,29 +1,31 @@
 <template>
   <div class="technology">
+    <div style="max-width: 900px;">
     <div class="title">
       <h1>Technologie</h1>
     </div>
 
     <div class="content">
-      <p class="text-justify">
+      <p>
         Tworząc specjalnie dla ciebie kierujemy się tym, aby produkt,
-        <br>który tworzymy był nie tylko funkcjonalny, ale też przejrzysty i intuicyjny dla użytkownika.
-        <br>Używamy sprawdzonych technologii webowych do tworzenia oprogramowania, dzięki czemu nasze strony
-        <br>są nowoczesne, wygodne w obsłudze oraz łatwe w rozbudowie.
+        który tworzymy był nie tylko funkcjonalny, ale też przejrzysty i intuicyjny dla użytkownika.
+        Używamy sprawdzonych technologii webowych do tworzenia oprogramowania, dzięki czemu nasze strony
+        są nowoczesne, wygodne w obsłudze oraz łatwe w rozbudowie.
       </p>
 
       <hr class="my-4">
 
-      <p class="text-justify">
+      <p>
         Tworzymy aplikacje mobile na platformy Android i IOS, które charakteryzują się przyjaznym i funkcjonalnych interfejsem,
-        <br>pięknym wyglądem oraz szybkim działaniem. Zastosowanie technologii hybrydowych pozwala na szybsze tworzenie aplikacji
-        <br>oraz wprowadzanie późniejszych zmian w wyglądzie i działaniu.
+        pięknym wyglądem oraz szybkim działaniem. Zastosowanie technologii hybrydowych pozwala na szybsze tworzenie aplikacji
+        oraz wprowadzanie późniejszych zmian w wyglądzie i działaniu.
       </p>
     </div>
     <div class="img-container">
       <b-img :src="require('../assets/IOS.svg')"/>
       <b-img :src="require('../assets/Android.svg')"/>
       <b-img :src="require('../assets/Web.svg')"/>
+    </div>
     </div>
   </div>
 </template>
@@ -40,10 +42,7 @@ export default class Technology extends Vue {}
   font-weight: bold;
 }
 .content {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: justify;
+text-align: left;
 }
 img {
   max-width: 160px;
@@ -53,7 +52,12 @@ img {
   padding: 5px;
 }
 .technology {
+  display: flex;
+  flex-direction: column;
   background-color: #f5f5f5;
   padding: 20px;
+  justify-items: center;
+  align-items: center;
+
 }
 </style>
