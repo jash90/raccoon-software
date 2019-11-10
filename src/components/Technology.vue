@@ -40,6 +40,9 @@ export default class Technology extends Vue {}
   font-weight: bold;
 }
 .content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   text-align: justify;
 }
 img {
@@ -47,8 +50,10 @@ img {
   max-height: 160px;
   width: 20%;
   height: auto;
+  padding: 5px;
 }
 .technology {
   background-color: #f5f5f5;
+  padding: 20px;
 }
 </style>
