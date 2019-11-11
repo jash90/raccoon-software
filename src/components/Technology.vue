@@ -1,63 +1,73 @@
 <template>
-  <div class="technology">
+  <div id="technology">
     <div style="max-width: 900px;">
-    <div class="title">
-      <h1>Technologie</h1>
-    </div>
+      <div class="title">
+        <h1>Technologie</h1>
+      </div>
 
-    <div class="content">
-      <p>
-        Tworząc specjalnie dla ciebie kierujemy się tym, aby produkt,
-        który tworzymy był nie tylko funkcjonalny, ale też przejrzysty i intuicyjny dla użytkownika.
-        Używamy sprawdzonych technologii webowych do tworzenia oprogramowania, dzięki czemu nasze strony
-        są nowoczesne, wygodne w obsłudze oraz łatwe w rozbudowie.
-      </p>
+      <div class="content">
+        <p>
+          Tworząc specjalnie dla ciebie kierujemy się tym, aby produkt,
+          który tworzymy był nie tylko funkcjonalny, ale też przejrzysty i intuicyjny dla użytkownika.
+          Używamy sprawdzonych technologii webowych do tworzenia oprogramowania, dzięki czemu nasze strony
+          są nowoczesne, wygodne w obsłudze oraz łatwe w rozbudowie.
+        </p>
 
-      <hr class="my-4">
+        <hr class="my-4">
 
-      <p>
-        Tworzymy aplikacje mobile na platformy Android i IOS, które charakteryzują się przyjaznym i funkcjonalnych interfejsem,
-        pięknym wyglądem oraz szybkim działaniem. Zastosowanie technologii hybrydowych pozwala na szybsze tworzenie aplikacji
-        oraz wprowadzanie późniejszych zmian w wyglądzie i działaniu.
-      </p>
-    </div>
-    <div class="img-container">
-      <b-img :src="require('../assets/IOS.svg')"/>
-      <b-img :src="require('../assets/Android.svg')"/>
-      <b-img :src="require('../assets/Web.svg')"/>
-    </div>
+        <p>
+          Tworzymy aplikacje mobile na platformy Android i IOS, które charakteryzują się przyjaznym i
+          funkcjonalnych interfejsem,
+          pięknym wyglądem oraz szybkim działaniem. Zastosowanie technologii hybrydowych pozwala na szybsze
+          tworzenie aplikacji
+          oraz wprowadzanie późniejszych zmian w wyglądzie i działaniu.
+        </p>
+      </div>
+      <div class="img-container">
+        <b-img :src="require('../assets/IOS.svg')"/>
+        <b-img :src="require('../assets/Android.svg')"/>
+        <b-img :src="require('../assets/Web.svg')"/>
+      </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+  import {Component, Vue} from "vue-property-decorator";
 
-@Component
-export default class Technology extends Vue {}
+  @Component
+  export default class Technology extends Vue {}
 </script>
 
 <style style="scss" scoped>
-.title {
-  font-weight: bold;
-}
-.content {
-text-align: left;
-}
-img {
-  max-width: 160px;
-  max-height: 160px;
-  width: 20%;
-  height: auto;
-  padding: 5px;
-}
-.technology {
-  display: flex;
-  flex-direction: column;
-  background-color: #f5f5f5;
-  padding: 20px;
-  justify-items: center;
-  align-items: center;
+  .title {
+    font-weight: bold;
+  }
 
-}
+  .content {
+    text-align: left;
+  }
+
+  img {
+    max-width: 160px;
+    max-height: 160px;
+    width: 20%;
+    height: auto;
+    padding: 5px;
+  }
+
+  #technology {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 </style>

@@ -1,5 +1,5 @@
 <template>
-	<div class="pricing">
+	<div id="pricing">
 		<div class="content">
 			<div class="title">
 				<h1>Wycena</h1>
@@ -23,8 +23,8 @@
 					<b-input placeholder="Email"/>
 					<div class="button-container">
 						<b-button>Wyślij</b-button>
+					</div>
 				</div>
-			</div>
 			</div>
 		</div>
 	</div>
@@ -59,7 +59,7 @@
 		padding: 20px 0px;
 	}
 
-	.pricing {
+	#pricing {
 		display: flex;
 		flex-direction: column;
 		background-color: #fff;

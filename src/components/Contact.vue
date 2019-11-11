@@ -1,5 +1,5 @@
 <template>
-	<div class="contact">
+	<div id="contact">
 		<div class="contener">
 			<h5 class="title">SKONTAKTUJ SIĘ Z NAMI</h5>
 
@@ -41,7 +41,7 @@
     export default class Contact extends Vue {}
 </script>
 <style lang="scss" scoped>
-	.contact {
+	#contact {
 		display: flex;
 		flex-direction: column;
 		padding: 20px;

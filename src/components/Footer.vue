@@ -1,5 +1,5 @@
 <template>
-	<div class="footer">
+	<div id="footer">
 		<div class="footer-container">
 
 			<div class="img-container">
@@ -21,11 +21,11 @@
 			<div class="text-container">
 				<div class="center">
 					<p class="title">NAWIGACJA</p>
-					<p>STRONA GŁÓWNA</p>
-					<p>O NAS</p>
-					<p>TECHNOLOGIE</p>
-					<p>WYCENA</p>
-					<p>KONTAKT</p>
+					<a href="#home"><p>STRONA GŁÓWNA</p></a>
+					<a href="#about"><p>O NAS</p></a>
+					<a href="#technology"><p>TECHNOLOGIE</p></a>
+					<a href="#pricing"><p>WYCENA</p></a>
+					<a href="#contact"><p>KONTAKT</p></a>
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@
     export default class Footer extends Vue {}
 </script>
 <style lang="scss" scoped>
-	.footer {
+	#footer {
 		display: flex;
 		flex-direction: column;
 		background-color: #f5f5f5;
@@ -114,6 +114,10 @@
 			.img-container {
 				display: none;
 			}
+		}
+
+		a:hover {
+			text-decoration: none;
 		}
 	}
 </style>
