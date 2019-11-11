@@ -5,7 +5,7 @@
     <About/>
     <Technology/>
     <Pricing/>
-    <Carousel/>
+    <!--    <Carousel/>-->
     <Contact/>
     <Footer/>
   </div>

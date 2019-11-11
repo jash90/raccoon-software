@@ -7,10 +7,10 @@
 
       <div class="content">
         <p>
-          Tworząc specjalnie dla ciebie kierujemy się tym, aby produkt,
-          który tworzymy był nie tylko funkcjonalny, ale też przejrzysty i intuicyjny dla użytkownika.
-          Używamy sprawdzonych technologii webowych do tworzenia oprogramowania, dzięki czemu nasze strony
-          są nowoczesne, wygodne w obsłudze oraz łatwe w rozbudowie.
+          Tworząc oprogramowanie kierujemy się tym, aby produkt, przez nas oferowany był nie tylko funkcjonalny i
+          przejrzysty , ale również intuicyjny i dopasowany do potrzeb użytkownika.
+          Używamy sprawdzonych technologii webowych do tworzenia oprogramowania, dzięki czemu nasze strony są
+          nowoczesne, wygodne w obsłudze oraz łatwe w rozbudowie.
         </p>
 
         <hr class="my-4">

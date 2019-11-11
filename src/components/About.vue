@@ -6,22 +6,13 @@
 			</div>
 			<div class="content">
 				<p>
-					Nazywam się Bartłomiej Zimny i od marca 2019 r. prowadzę działalność gospodarczą.
-					Firma jest dla mnie następnym, etapy pracy jako programista.
-					Programuje od około 5 lat, od 1,5 roku robię to komercyjnie.
-					który tworzymy był nie tylko funkcjonalny, ale też przejrzysty i intuicyjny dla użytkownika.
-					Używamy sprawdzonych technologii webowych do tworzenia oprogramowania, dzięki czemu nasze strony
-					są nowoczesne, wygodne w obsłudze oraz łatwe w rozbudowie.
-				</p>
-
-				<hr class="my-4"/>
-
-				<p>
-					Tworzymy aplikacje mobile na platformy Android i IOS, które charakteryzują się przyjaznym i
-					funkcjonalnych interfejsem,
-					pięknym wyglądem oraz szybkim działaniem. Zastosowanie technologii hybrydowych pozwala na szybsze
-					tworzenie aplikacji
-					oraz wprowadzanie późniejszych zmian w wyglądzie i działaniu.
+					Nazywam się Bartłomiej Zimny i od marca 2019r.
+					Prowadzę działalność gospodarczą.
+					Firma jest dla mnie kolejnym etapem rozwoju w branży programownia.
+					Programuję od około 5 lat, póltora roku temu zdecydowałem się moją pasję zamienić w wykonywany zawód
+					i zając się tym komercyjnie.
+					Bazujemy na sprawdzonych technologiach webowych do tworzenia oprogramowania, dzięki temu nasze
+					strony są nowoczesne, wygodne w obsłudze oraz łatwe w rozbudowie.
 				</p>
 			</div>
 		</div>
@@ -42,6 +33,7 @@
 
 	.content {
 		text-align: left;
+		padding: 20px 0px;
 	}
 
 	img {
