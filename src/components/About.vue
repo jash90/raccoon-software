@@ -6,11 +6,11 @@
 			</div>
 			<div class="content">
 				<p>
-					Nazywam się Bartłomiej Zimny i od marca 2019r.
+					Nazywam się Bartłomiej Zimny i od marca 2019 r.
 					Prowadzę działalność gospodarczą.
-					Firma jest dla mnie kolejnym etapem rozwoju w branży programownia.
-					Programuję od około 5 lat, póltora roku temu zdecydowałem się moją pasję zamienić w wykonywany zawód
-					i zając się tym komercyjnie.
+					Firma jest dla mnie kolejnym etapem rozwoju w branży programowania.
+					Programuję od około 5 lat, półtora roku temu zdecydowałem się moją pasję zamienić w wykonywany zawód
+					i zająć się tym komercyjnie.
 					Bazujemy na sprawdzonych technologiach webowych do tworzenia oprogramowania, dzięki temu nasze
 					strony są nowoczesne, wygodne w obsłudze oraz łatwe w rozbudowie.
 				</p>
