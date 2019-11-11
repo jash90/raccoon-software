@@ -6,7 +6,7 @@
       </div>
       <div class="jtext">
         <h2>RACCOON SOFTWARE</h2>
-        <h4>Rozwiązujemy wasze problemy</h4>
+		  <h4>Rozwiązujemy Wasze problemy</h4>
         <b-button variant="light">KONTAKT</b-button>
       </div>
     </b-row>
@@ -14,9 +14,9 @@
 </template>
 
 <script lang="ts">
-  import {Component, Vue} from "vue-property-decorator";
+    import {Component, Vue} from "vue-property-decorator";
 
-  @Component
+    @Component
   export default class Jumbotron extends Vue {}
 </script>
 
