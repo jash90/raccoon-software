@@ -37,7 +37,7 @@
 </template>
 
 <script lang="ts">
-    import {Component, Prop, Vue} from "vue-property-decorator";
+    import {Component, Vue} from "vue-property-decorator";
 
     @Component
     export default class Footer extends Vue {}
@@ -47,7 +47,6 @@
 		display: flex;
 		flex-direction: column;
 		background-color: #f5f5f5;
-		margin: 10px;
 
 
 		img {
@@ -108,7 +107,7 @@
 			.center {
 				display: flex;
 				flex-direction: column;
-				width: 90%;
+				width: 100%;
 			}
 		}
 		@media (max-width: 700px) {

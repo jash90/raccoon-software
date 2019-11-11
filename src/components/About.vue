@@ -32,9 +32,9 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+    import {Component, Vue} from "vue-property-decorator";
 
-@Component
+    @Component
 export default class About extends Vue {}
 </script>
 
@@ -55,10 +55,9 @@ export default class About extends Vue {}
   .about {
     display: flex;
     flex-direction: column;
-    background-color: #f5f5f5;
+	  background-color: white;
     padding: 20px;
     justify-items: center;
     align-items: center;
-
   }
 </style>

@@ -1,33 +1,41 @@
 <template>
 	<div class="contact">
 		<div class="contener">
-		<h5 class="title">SKONTAKTUJ SIĘ Z NAMI</h5>
+			<h5 class="title">SKONTAKTUJ SIĘ Z NAMI</h5>
 
-			<div class="display: flex;flex-direction:column;flex:1"
-			>
+			<div style="content">
 				<div
-				style="display: flex;flex-direction:row;flex:1">
-					<b-input placeholder="Imię i Nazwisko"/>
-					<b-input placeholder="Email"/>
-					<b-input placeholder="Telefon"/>
+					class="input-container"
+				>
+					<div style="display: flex;flex:1;padding: 5px;">
+						<b-input placeholder="Imię i Nazwisko"/>
+					</div>
+					<div style="display: flex;flex:1;padding: 5px;">
+						<b-input placeholder="Telefon"/>
+
+					</div>
+					<div style="display: flex;flex:1;padding: 5px;">
+						<b-input placeholder="Email"/>
+
+					</div>
+				</div>
 
 				<div
-					style="display: flex;flex-direction:row;flex:1"
+					style="display: flex;flex:1;padding: 5px;"
 				>
 					<b-form-textarea placeholder="Wiadomość" max-rows="2"
 					/>
 				</div>
+				<div class="button-container">
+					<b-button>Wyślij</b-button>
 				</div>
-			</div>
-			<div class="button-container">
-				<b-button>Wyślij</b-button>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script lang="ts">
-    import {Component, Prop, Vue} from "vue-property-decorator";
+    import {Component, Vue} from "vue-property-decorator";
 
     @Component
     export default class Contact extends Vue {}
@@ -36,9 +44,9 @@
 	.contact {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		padding: 20px;
 		justify-items: center;
-		width: 100%;
+		align-items: center;
 	}
 
 	.title {
@@ -48,23 +56,34 @@
 	.button-container {
 		display: flex;
 		width: 100%;
+		padding: 5px;
 		justify-content: flex-end;
-		padding-right: 10px;
+	}
+
+	.content {
+		max-width: 900px;
+		width: 100%;
 	}
 
 	.contener {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
 		max-width: 900px;
+		width: 100%;
 	}
 
 	.input-container {
 		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
+		flex-direction: row;
 	}
-	textarea.form-control{
-	height: 76px;
+
+	@media (max-width: 700px) {
+		.input-container {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	input {
+		display: flex;
+		flex: 1;
 	}
 </style>

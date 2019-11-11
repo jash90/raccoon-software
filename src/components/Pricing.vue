@@ -4,38 +4,34 @@
 			<div class="title">
 				<h1>Wycena</h1>
 			</div>
-			<div style="display:flex;flex-direction:row;flex:1;justify-content:center;">
+			<div style="display: flex; flex-direction: row;">
 				<div class="img-container">
 					<b-img :src="require('../assets/pricing.png')"/>
 				</div>
-				<div style="display:flex;flex-direction:column;width: 100%;">
-					<b-form class="form">
-						<b-form-group>
-							<b-form-radio-group
-								id="checkbox-group-1"
-								v-model="selectedProduct"
-								:options="typeProduct"
-								name="flavour-1"
-								class="radio"
-							></b-form-radio-group>
-						</b-form-group>
-						<b-input placeholder="Funkcjonalności"/>
-						<b-input placeholder="Opis"/>
-						<h5 style="margin-top: 8px;">Kontakt</h5>
-						<b-input placeholder="Imię i nazwisko"/>
-						<b-input placeholder="Email"/>
-						<div class="button-container">
-							<b-button>Wyślij</b-button>
-						</div>
-					</b-form>
+				<div class="form">
+					<b-form-radio-group
+						id="checkbox-group-1"
+						v-model="selectedProduct"
+						:options="typeProduct"
+						name="flavour-1"
+						class="radio"
+					></b-form-radio-group>
+					<b-input placeholder="Funkcjonalności"/>
+					<b-input placeholder="Opis"/>
+					<h5 style="margin: 20px 0px;">Kontakt</h5>
+					<b-input placeholder="Imię i nazwisko"/>
+					<b-input placeholder="Email"/>
+					<div class="button-container">
+						<b-button>Wyślij</b-button>
 				</div>
+			</div>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script lang="ts">
-    import {Component, Prop, Vue} from "vue-property-decorator";
+    import {Component, Vue} from "vue-property-decorator";
 
     @Component
     export default class Pricing extends Vue {
@@ -66,16 +62,15 @@
 	.pricing {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 		background-color: #fff;
 		padding: 20px;
 		justify-items: center;
+		align-items: center;
 	}
 
 	.content {
-		width: 100%;
 		max-width: 900px;
+		width: 100%;
 	}
 
 	.button-container {
@@ -97,7 +92,6 @@
 		flex-direction: column;
 		align-items: flex-start;
 		width: 100%;
-		max-width: 900px;
 	}
 
 	.radio {
@@ -112,7 +106,8 @@
 			flex-direction: column;
 			text-align: left;
 		}
-		img{
+
+		img {
 			display: none;
 		}
 	}
@@ -122,7 +117,8 @@
 		height: 300px;
 		margin: 10px;
 	}
-	.input{
-		width: 100%;
+
+	input {
+		margin: 10px 0px;
 	}
 </style>
