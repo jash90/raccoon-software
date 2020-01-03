@@ -27,7 +27,7 @@
                         name="flavour-1"
                         class="radio"
                     ></b-form-radio-group>
-                    <b-textarea placeholder="Opis" />
+                    <b-textarea placeholder="Opis" style="resize:none;"/>
                     <div class="button-container">
                         <b-button>Wyślij</b-button>
                     </div>
