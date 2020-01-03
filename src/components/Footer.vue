@@ -23,8 +23,8 @@
                     <a href="#home"><p>STRONA GŁÓWNA</p></a>
                     <a href="#about"><p>O NAS</p></a>
                     <a href="#technology"><p>TECHNOLOGIE</p></a>
-                    <a href="#pricing"><p>WYCENA</p></a>
-                    <a href="#contact"><p>KONTAKT</p></a>
+                    <a href="#pricing"><p>KONTAKT</p></a>
+                    <!-- <a href="#contact"><p>KONTAKT</p></a> -->
                 </div>
             </div>
         </div>
