@@ -16,8 +16,8 @@
                         <b-nav-item href="#home">Strona główna</b-nav-item>
                         <b-nav-item href="#about">O mnie</b-nav-item>
                         <b-nav-item href="#technology">Technologie</b-nav-item>
-                        <b-nav-item href="#pricing">Wycena</b-nav-item>
-                        <b-nav-item href="#contact">Kontakt</b-nav-item>
+                        <b-nav-item href="#pricing">Kontakt</b-nav-item>
+                        <!-- <b-nav-item href="#contact">Kontakt</b-nav-item> -->
                     </b-navbar-nav>
                 </b-collapse>
             </b-navbar>
